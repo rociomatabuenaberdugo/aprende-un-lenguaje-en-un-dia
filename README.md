@@ -1,4 +1,4 @@
-# Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
+﻿# Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
 
 ## Introducción
 
@@ -26,11 +26,11 @@ Para añadir colaboradores hay que hacer click en la pestaña *Settings* y selec
 
 ## Miembros del grupo
 
-Escribe aquí los miembros del grupo. El primero es el representante o encargado.
+El nombre del grupo es "Muñogui".
 
-* Alan Brito
-* Elba Lazo
-* Esteban Quito
+* Andrés Fernandez
+* José Ángel Galera
+* Rocío Matabuena
 
 ## Lenguaje de programación
 
@@ -38,13 +38,18 @@ El profesor llevará una cajita llena de papelitos con los nombres de distintos 
 
 Escribe el lenguaje de programación elegido por el grupo.
 
-* Mi lenguaje
+* Scala
 
 Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
 
 ## Información sobre el lenguaje
 
-Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
+Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: etc. Pon aquí enlaces y capturas de pantalla.
+
+Cuándo: Scala fue lanzando al público a principios de 2004, en la plataforma de Java. Más tarde, en Marzo de 2006, una segunda versión fue lanzada.
+Para qué: 
+En qué ámbito se utiliza:
+Principales ventajas:
 
 ## Herramientas de desarrollo
 
