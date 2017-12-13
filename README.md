@@ -46,10 +46,9 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 
 Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: etc. Pon aquí enlaces y capturas de pantalla.
 
-Cuándo: Scala fue lanzando al público a principios de 2004, en la plataforma de Java. Más tarde, en Marzo de 2006, una segunda versión fue lanzada.
-Para qué: 
-En qué ámbito se utiliza:
-Principales ventajas:
+Scala fue lanzando al público a principios de 2004, en la plataforma de Java. Más tarde, en Marzo de 2006, una segunda versión fue lanzada. Es un lenguaje puramente orientado a objetos en el sentido de que todo es un objeto. Los tipos y comportamientos de objetos son descritos por clases y traits. Las clases pueden ser extendidas a través de subclases y un mecanismo flexible de composición mezclada que provee un claro remplazo a la herencia múltiple.
+Es usado, por ejemplo, en el desarrollo del Big Data.
+Sus ventaja es que es funcional en el sentido que toda función es un valor, es estáticamente tipado (cuenta con un expresivo sistema de tipado que fuerza estáticamente las abstracciones a ser usadas en una manera coherente y segura) y es extensible, por lo que provee una única combinación de mecanismos del lenguaje que simplifican la creación de construcciones propias del lenguaje en forma de librerías.
 
 ## Herramientas de desarrollo
 
