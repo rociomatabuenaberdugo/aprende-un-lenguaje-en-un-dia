@@ -52,7 +52,7 @@ Sus ventaja es que es funcional en el sentido que toda función es un valor, es 
 
 ## Herramientas de desarrollo
 
-Instalamos el pluggin de scala para eclipse.
+Instalamos el pluggin de scala para eclipse desde el *Eclipse Marketplace*.
 
 ## Poniendo en práctica el lenguaje
 
@@ -88,12 +88,11 @@ object HolaMundo01 {
 
 import scala.io.StdIn.readInt
 
-object piramide1 {
+object piramide {
   def main(args: Array[String]): Unit = {
   
   print("Dime la altura de la pirámide: ")
   val n = readInt()
-  println("Su altura es: " + n)
   
   var ancho = 1
   var espacio = n - 1
