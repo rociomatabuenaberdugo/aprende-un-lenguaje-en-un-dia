@@ -78,7 +78,48 @@ object HolaMundo01 {
 
 ### 2. Pirámide
 
-Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
+```scala
+/**
+ * Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
+ *
+ * Grupo Muñogui
+ */
+
+import scala.io.StdIn.readInt
+
+object piramide1 {
+  def main(args: Array[String]): Unit = {
+  
+  print("Dime la altura de la pirámide: ")
+  val n = readInt()
+  println("Su altura es: " + n)
+  
+  var ancho = 1
+  var espacio = n - 1
+  var i = 0
+  
+  
+  while (i < n) {
+    println()
+    var j = 0
+   
+    while (j < espacio) {
+      print(" ")
+      j = j + 1
+    }
+    j = 0
+   while (j < ancho) {
+      print("*")
+      j = j + 1
+    }
+    espacio = espacio - 1
+    ancho = ancho + 2
+    i = i + 1
+  }
+  }
+}
+```
+<img src="Imágenes/Piramide.PNG">
 
 ### 3. Arrays y números aleatorios
 
