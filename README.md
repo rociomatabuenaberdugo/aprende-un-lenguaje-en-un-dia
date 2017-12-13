@@ -60,7 +60,20 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 ### 1. ¡Hola mundo!
 
-Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
+```scala
+/**
+ * Muestra por pantalla la frase "¡Hola mundo!"
+ *
+ * Grupo Muñogui
+ */
+
+object HolaMundo01 {
+  def main(args: Array[String]): Unit = {
+  print("¡Hola mundo!")
+  }
+}
+<img src="Captura01.PNG" width="270px">
+```
 
 ### 2. Pirámide
 
