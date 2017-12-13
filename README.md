@@ -72,8 +72,9 @@ object HolaMundo01 {
   print("¡Hola mundo!")
   }
 }
-<img src="Captura01.PNG" width="270px">
 ```
+<img src="Captura01.PNG" width="270px">
+
 
 ### 2. Pirámide
 
