@@ -73,7 +73,7 @@ object HolaMundo01 {
   }
 }
 ```
-<img src="Captura01.PNG" width="270px">
+<img src="Imágenes/Hello.PNG">
 
 
 ### 2. Pirámide
