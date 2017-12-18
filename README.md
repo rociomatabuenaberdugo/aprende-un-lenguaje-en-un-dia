@@ -152,6 +152,7 @@ object ArrayAleatorio {
      
     while (contador < 20) {
       a(contador) = (math.random * (99) + 2).toInt
+      print(a(contador) + " ")
       contador2 = 2
       while ((a(contador)%contador2) != 0) {
         contador2 = contador2 + 1
@@ -165,6 +166,9 @@ object ArrayAleatorio {
       }
       contador = contador + 1
     }
+    
+    println();
+    
      contador = 0
      var i = 0
     while (i < contadorPrimo) {
