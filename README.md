@@ -123,7 +123,65 @@ object piramide {
 
 ### 3. Arrays y números aleatorios
 
-Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
+```scala
+/**
+ *Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente
+ *los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las 
+ *posiciones restantes. Muestra finalmente el array resultado.
+ *
+ * Grupo Muñogui
+ */
+import scala.util.Random
+import scala.Array
+import util.Random.nextInt
+
+
+object ArrayAleatorio {
+  def main(args: Array[String]): Unit = {
+   
+    
+    
+     var a = new Array[Int](20)
+     var primo = new Array[Int](20)
+     var noPrimo = new Array[Int](20)
+     var contador = 0
+     var contador2 = 2
+     var contadorPrimo = 0
+     var contadorNoPrimo = 0
+     
+     
+    while (contador < 20) {
+      a(contador) = (math.random * (99) + 2).toInt
+      contador2 = 2
+      while ((a(contador)%contador2) != 0) {
+        contador2 = contador2 + 1
+      }
+      if (a(contador)==contador2) {
+        primo(contadorPrimo) = a(contador)
+        contadorPrimo = contadorPrimo + 1
+      } else {
+        noPrimo (contadorNoPrimo) = a(contador)
+        contadorNoPrimo = contadorNoPrimo + 1
+      }
+      contador = contador + 1
+    }
+     contador = 0
+     var i = 0
+    while (i < contadorPrimo) {
+      print(primo(i) + " ")
+      i = i + 1
+   }
+     i = 0
+      while (contadorPrimo < 20) {
+      print(noPrimo(i) + " ")
+      contadorPrimo = contadorPrimo + 1
+      i = i + 1
+    }    
+  }  
+}
+```
+<img src="Imágenes/ArrayAleatorio.PNG">
+
 
 ## Presentación de resultados
 
